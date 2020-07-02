@@ -1,7 +1,7 @@
 fun main(args: Array<String>) {
     val menuPrincipal: String = ("Bienvenido a RecipeMaker \n 1. Hacer receta \n 2. Ver mis recetas \n 3. Salir")
     println(menuPrincipal)
-
+    var receta = emptyArray<String>()
     val opcion: String? = readLine()
         if (opcion == "1") {
             val ingredientes: String = ("Los ingredientes que tienes son: \n 1. Agua 2. Leche 3. Carne 4. Verduras 5. Frutas 6. Cereal 7.Huevos 8. Aceite")
